@@ -3,23 +3,56 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DD5A7638256E87F90046E1CF /* MoreLikeThis.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD5A7637256E87F90046E1CF /* MoreLikeThis.swift */; };
+		DD5A763C256EA0BF0046E1CF /* Trailer.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD5A763B256EA0BF0046E1CF /* Trailer.swift */; };
+		DD5A763F256EA1380046E1CF /* VideoPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD5A763E256EA1380046E1CF /* VideoPlayerView.swift */; };
+		DD5A7643256EA2F20046E1CF /* VideoPreviewImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD5A7642256EA2F20046E1CF /* VideoPreviewImage.swift */; };
+		DD5A7648256EA8B90046E1CF /* TrailerList.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD5A7647256EA8B90046E1CF /* TrailerList.swift */; };
+		DD6ACE08256B905A00088597 /* MovieDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD6ACE07256B905A00088597 /* MovieDetailsView.swift */; };
+		DD6ACE3D256C321400088597 /* Episodes.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD6ACE3C256C321400088597 /* Episodes.swift */; };
+		DD6ACE5F256D611900088597 /* CustomTabSwitcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD6ACE5E256D611900088597 /* CustomTabSwitcher.swift */; };
+		DD6BCF552567D6AD00BAF680 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD6BCF542567D6AD00BAF680 /* HomeViewModel.swift */; };
+		DD6BCF5C2567F2F300BAF680 /* TopMoviePreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD6BCF5B2567F2F300BAF680 /* TopMoviePreview.swift */; };
+		DD6BCF7025680AD700BAF680 /* SmallVerticalButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD6BCF6F25680AD700BAF680 /* SmallVerticalButton.swift */; };
+		DD6BCF742568136B00BAF680 /* PlayButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD6BCF732568136B00BAF680 /* PlayButton.swift */; };
 		DD9EB6992567B54F0068258E /* SwiftUI_NetFlixCloneApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD9EB6982567B54F0068258E /* SwiftUI_NetFlixCloneApp.swift */; };
 		DD9EB69B2567B54F0068258E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD9EB69A2567B54F0068258E /* ContentView.swift */; };
 		DD9EB69D2567B54F0068258E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD9EB69C2567B54F0068258E /* Assets.xcassets */; };
 		DD9EB6A02567B54F0068258E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD9EB69F2567B54F0068258E /* Preview Assets.xcassets */; };
+		DD9EB6AA2567B9860068258E /* KingfisherSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = DD9EB6A92567B9860068258E /* KingfisherSwiftUI */; };
+		DD9EB6AD2567BA0B0068258E /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD9EB6AC2567BA0B0068258E /* Movie.swift */; };
+		DD9EB6B02567BA690068258E /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD9EB6AF2567BA690068258E /* HomeView.swift */; };
+		DD9EB6B42567BAD10068258E /* StandardHomeMovie.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD9EB6B32567BAD10068258E /* StandardHomeMovie.swift */; };
+		DD9EB6B72567BBA10068258E /* GlobalHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD9EB6B62567BBA10068258E /* GlobalHelpers.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		DD5A7637256E87F90046E1CF /* MoreLikeThis.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoreLikeThis.swift; sourceTree = "<group>"; };
+		DD5A763B256EA0BF0046E1CF /* Trailer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Trailer.swift; sourceTree = "<group>"; };
+		DD5A763E256EA1380046E1CF /* VideoPlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlayerView.swift; sourceTree = "<group>"; };
+		DD5A7642256EA2F20046E1CF /* VideoPreviewImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPreviewImage.swift; sourceTree = "<group>"; };
+		DD5A7647256EA8B90046E1CF /* TrailerList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrailerList.swift; sourceTree = "<group>"; };
+		DD6ACE07256B905A00088597 /* MovieDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetailsView.swift; sourceTree = "<group>"; };
+		DD6ACE3C256C321400088597 /* Episodes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Episodes.swift; sourceTree = "<group>"; };
+		DD6ACE5E256D611900088597 /* CustomTabSwitcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabSwitcher.swift; sourceTree = "<group>"; };
+		DD6BCF542567D6AD00BAF680 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		DD6BCF5B2567F2F300BAF680 /* TopMoviePreview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopMoviePreview.swift; sourceTree = "<group>"; };
+		DD6BCF6F25680AD700BAF680 /* SmallVerticalButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmallVerticalButton.swift; sourceTree = "<group>"; };
+		DD6BCF732568136B00BAF680 /* PlayButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayButton.swift; sourceTree = "<group>"; };
 		DD9EB6952567B54F0068258E /* SwiftUI-NetFlixClone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI-NetFlixClone.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD9EB6982567B54F0068258E /* SwiftUI_NetFlixCloneApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_NetFlixCloneApp.swift; sourceTree = "<group>"; };
 		DD9EB69A2567B54F0068258E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		DD9EB69C2567B54F0068258E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DD9EB69F2567B54F0068258E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		DD9EB6A12567B54F0068258E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD9EB6AC2567BA0B0068258E /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
+		DD9EB6AF2567BA690068258E /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		DD9EB6B32567BAD10068258E /* StandardHomeMovie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StandardHomeMovie.swift; sourceTree = "<group>"; };
+		DD9EB6B62567BBA10068258E /* GlobalHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalHelpers.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -27,12 +60,73 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DD9EB6AA2567B9860068258E /* KingfisherSwiftUI in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		DD5A7641256EA2C90046E1CF /* VideoPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				DD5A763E256EA1380046E1CF /* VideoPlayerView.swift */,
+				DD5A7642256EA2F20046E1CF /* VideoPreviewImage.swift */,
+				DD5A7647256EA8B90046E1CF /* TrailerList.swift */,
+			);
+			path = VideoPlayer;
+			sourceTree = "<group>";
+		};
+		DD5A7645256EA30A0046E1CF /* CustomTab */ = {
+			isa = PBXGroup;
+			children = (
+				DD6ACE5E256D611900088597 /* CustomTabSwitcher.swift */,
+				DD5A7637256E87F90046E1CF /* MoreLikeThis.swift */,
+			);
+			path = CustomTab;
+			sourceTree = "<group>";
+		};
+		DD6BCF572567F24D00BAF680 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				DD6BCF542567D6AD00BAF680 /* HomeViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		DD6BCF582567F26A00BAF680 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				DD9EB6AC2567BA0B0068258E /* Movie.swift */,
+				DD6ACE3C256C321400088597 /* Episodes.swift */,
+				DD5A763B256EA0BF0046E1CF /* Trailer.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		DD6BCF592567F29E00BAF680 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				DD6BCF6E25680A9D00BAF680 /* ViewComponents */,
+				DD9EB6AF2567BA690068258E /* HomeView.swift */,
+				DD6ACE07256B905A00088597 /* MovieDetailsView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		DD6BCF6E25680A9D00BAF680 /* ViewComponents */ = {
+			isa = PBXGroup;
+			children = (
+				DD9EB6B32567BAD10068258E /* StandardHomeMovie.swift */,
+				DD6BCF5B2567F2F300BAF680 /* TopMoviePreview.swift */,
+				DD6BCF6F25680AD700BAF680 /* SmallVerticalButton.swift */,
+				DD6BCF732568136B00BAF680 /* PlayButton.swift */,
+				DD5A7645256EA30A0046E1CF /* CustomTab */,
+				DD5A7641256EA2C90046E1CF /* VideoPlayer */,
+			);
+			path = ViewComponents;
+			sourceTree = "<group>";
+		};
 		DD9EB68C2567B54F0068258E = {
 			isa = PBXGroup;
 			children = (
@@ -54,6 +148,10 @@
 			children = (
 				DD9EB6982567B54F0068258E /* SwiftUI_NetFlixCloneApp.swift */,
 				DD9EB69A2567B54F0068258E /* ContentView.swift */,
+				DD6BCF582567F26A00BAF680 /* Model */,
+				DD6BCF572567F24D00BAF680 /* ViewModel */,
+				DD6BCF592567F29E00BAF680 /* View */,
+				DD9EB6B62567BBA10068258E /* GlobalHelpers.swift */,
 				DD9EB69C2567B54F0068258E /* Assets.xcassets */,
 				DD9EB6A12567B54F0068258E /* Info.plist */,
 				DD9EB69E2567B54F0068258E /* Preview Content */,
@@ -85,6 +183,9 @@
 			dependencies = (
 			);
 			name = "SwiftUI-NetFlixClone";
+			packageProductDependencies = (
+				DD9EB6A92567B9860068258E /* KingfisherSwiftUI */,
+			);
 			productName = "SwiftUI-NetFlixClone";
 			productReference = DD9EB6952567B54F0068258E /* SwiftUI-NetFlixClone.app */;
 			productType = "com.apple.product-type.application";
@@ -112,6 +213,9 @@
 				Base,
 			);
 			mainGroup = DD9EB68C2567B54F0068258E;
+			packageReferences = (
+				DD9EB6A82567B9860068258E /* XCRemoteSwiftPackageReference "Kingfisher" */,
+			);
 			productRefGroup = DD9EB6962567B54F0068258E /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -138,8 +242,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DD9EB6B72567BBA10068258E /* GlobalHelpers.swift in Sources */,
+				DD5A763C256EA0BF0046E1CF /* Trailer.swift in Sources */,
 				DD9EB69B2567B54F0068258E /* ContentView.swift in Sources */,
+				DD6ACE08256B905A00088597 /* MovieDetailsView.swift in Sources */,
+				DD6BCF552567D6AD00BAF680 /* HomeViewModel.swift in Sources */,
+				DD5A7643256EA2F20046E1CF /* VideoPreviewImage.swift in Sources */,
+				DD9EB6B02567BA690068258E /* HomeView.swift in Sources */,
+				DD9EB6B42567BAD10068258E /* StandardHomeMovie.swift in Sources */,
+				DD6BCF5C2567F2F300BAF680 /* TopMoviePreview.swift in Sources */,
 				DD9EB6992567B54F0068258E /* SwiftUI_NetFlixCloneApp.swift in Sources */,
+				DD9EB6AD2567BA0B0068258E /* Movie.swift in Sources */,
+				DD5A7638256E87F90046E1CF /* MoreLikeThis.swift in Sources */,
+				DD6ACE5F256D611900088597 /* CustomTabSwitcher.swift in Sources */,
+				DD5A7648256EA8B90046E1CF /* TrailerList.swift in Sources */,
+				DD6ACE3D256C321400088597 /* Episodes.swift in Sources */,
+				DD6BCF7025680AD700BAF680 /* SmallVerticalButton.swift in Sources */,
+				DD6BCF742568136B00BAF680 /* PlayButton.swift in Sources */,
+				DD5A763F256EA1380046E1CF /* VideoPlayerView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -328,6 +448,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		DD9EB6A82567B9860068258E /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.15.7;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		DD9EB6A92567B9860068258E /* KingfisherSwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DD9EB6A82567B9860068258E /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = KingfisherSwiftUI;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = DD9EB68D2567B54F0068258E /* Project object */;
 }
